@@ -9,7 +9,7 @@ C++ command line utility to query or set CPU, memory and I/O priority (Windows)
 
 <b>Usage</b>
 
-Priority [<parameter>] [<PID|program>]
+Priority [parameter] [PID|program]
 
 Shows (when called without parameters) or changes the CPU, memory and I/O priority and CPU affinity of a running process (memory priority can maximally be set  to normal, I/O priority to high at most).<br />
 It is enough to supply a partly process name.<br />
